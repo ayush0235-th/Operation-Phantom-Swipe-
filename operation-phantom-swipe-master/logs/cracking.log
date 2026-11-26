@@ -1,0 +1,23 @@
+==================================================================
+ OPERATION PHANTOM SWIPE - VAULT DICTIONARY ATTACK
+ Target : evidence/protected/vault.zip
+ Wordlist: scripts/wordlist.txt
+ Run    : 2026-08-21T04:01:10Z   Examiner: [ VINAY ]
+==================================================================
+[*] 53 candidate passwords loaded
+[*] Testing against member: vault/buyer_invoice.txt
+
+    ... 10 tried (last: HELLO)
+    ... 20 tried (last: skinner2024)
+    ... 30 tried (last: DELTA)
+    ... 40 tried (last: HYPHEN4)
+
+==================================================================
+ [+] PASSWORD RECOVERED : 'HYDRA76'
+ [+] Attempts           : 41/53
+ [+] Time               : 0.0078 s  (5,266 guesses/s)
+==================================================================
+ [+] Recovered files -> artefacts/recovered/
+       - vault/buyer_invoice.txt
+       - vault/pan_dump_full.csv
+       - vault/wallet_seed.txt
